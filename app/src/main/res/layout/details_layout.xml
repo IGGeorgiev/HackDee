@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/name"
+            android:textSize="@dimen/title_text"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/name_of_beacon"
+            android:textSize="@dimen/title_text"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/distance"
+            android:textSize="@dimen/title_text"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/distance_of_beacon"
+            android:textSize="@dimen/title_text"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <!--     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text = "@string/angle"
+                 android:textSize="@dimen/title_text"
+                 android:layout_gravity="center_horizontal" />
+            <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id = "@+id/angle_to_north"
+                 android:textSize="@dimen/title_text"
+                 android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    -->
+</LinearLayout>
